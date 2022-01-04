@@ -1,6 +1,10 @@
 # Getting Started with The Books Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project, using react and bootstrap, was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The project is intended for showing the different parts of react as an application. It is going to be updated from time to time on its look and feel, functionalities and exercies.
+
+You will find the exercises to be given on the tasks link.
 
 ## Available Scripts
 
