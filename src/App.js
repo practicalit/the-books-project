@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import BookSubject from "./components/books/BookSubject";
 import Header from "./components/layout/Header";
-import Home from "./Home";
+import Home from "./components/layout/Home";
 import { BrowserRouter as Router } from "react-router-dom";
 import Tasks from "./components/misc/Tasks";
 import Authors from "./components/books/Authors";
