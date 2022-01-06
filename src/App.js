@@ -32,7 +32,11 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/search" element={<BookSubject />} />
         <Route exact path="/tasks" element={<Tasks />} />
-        <Route exact path="/authors" element={<Authors />} />
+        {
+          //url parameter example fro the authors
+          //the real url would like: localhost:3000/authors/OL23326A
+        }
+        <Route exact path="/authors/:id" element={<Authors />} />
         </Routes>
     </div>
     </Router>
