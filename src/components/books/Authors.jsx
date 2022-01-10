@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
+/**
+ * @author Practical IT <info@thePracticalIT.com>
+ * Authors component 
+ */
 export default function Authors() {
   const { id } = useParams();
   const [author, setAuthor] = useState(null);

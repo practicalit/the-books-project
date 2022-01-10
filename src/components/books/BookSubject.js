@@ -11,6 +11,11 @@ export default function BookSubject() {
   useEffect(() => {});
 
   const inputHandler = (event) => {
+    //check if the key pressed is Enter and delegate the task to button.
+    if (event.keyCode == 13) {
+      btnHandler(event);
+      return;
+    }
     setSubject(event.target.value);
   };
 
@@ -54,15 +59,15 @@ export default function BookSubject() {
       </button>
 
       {showSpinner && (
-        <div class="d-flex justify-content-center">
-          <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
+        <div className="d-flex justify-content-center">
+          <div className="spinner-border" role="status">
+            <span className="visually-hidden">Loading...</span>
           </div>
         </div>
       )}
       <div>{message}</div>
 
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
             <th scope="col">#</th>
